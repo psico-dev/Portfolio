@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-size: 62.5%;
+}
+body{
+  font-family: 'Oswald', sans-serif;
+  color: aliceblue;
+  background-color: rgb(61, 60, 60);
+}
+.container{
+  display: grid;
+  grid-template-columns: 130px auto;
+}
+.header-container{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  top: 0;
+  padding: 15px;
+}
+a{
+  text-decoration: none;
+  color: aliceblue;
+}

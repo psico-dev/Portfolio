@@ -3,7 +3,6 @@ import React from "react";
 function Header () {
   return(
     <header>
-      
       <div className="box-logo">
         <img src="" alt="logo Andrés" />
         <p>Andrés</p>
