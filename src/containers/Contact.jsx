@@ -1,10 +1,11 @@
 import React from "react";
+import "../style/Contact.css"
 
 function Contact () {
   return(
-    <>
-      <h3>Contáctame</h3>
-      <form action="submit">
+    <section className="contact">
+      <h2>Contáctame</h2>
+      <form action="submit" className="form">
         <label htmlFor="name">Nombre: </label>
         <input type="text" id="name" placeholder="Nombre" />
         <label htmlFor="email">Correo: </label>
@@ -15,7 +16,7 @@ function Contact () {
         {/* <input type="button" value={Enviar}/> */}
         <button>Enviar</button>
       </form>
-    </>
+    </section>
   )
 }
 

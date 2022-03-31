@@ -1,0 +1,72 @@
+header{
+  width: initial;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  position: fixed;
+  lefT: 0;
+  top: 0;
+  right: auto;
+  bottom: 0;
+}
+.box-logo{
+  min-height: 150px;
+  font-size: 1.6rem;
+  background-color: black;
+}
+.logo{
+  width: 100%;
+  height: 70%;
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  background-image: url("https://cdn.dribbble.com/users/1844366/screenshots/10795421/media/5b84d407b187a38ab84ae0f1e0491433.png");
+}
+.title-logo{
+  text-align: center;
+  font-size: 1.4rem;
+}
+.header-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.container-list{
+  width: 100%;
+  padding: 20px 10px;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+.list{
+  padding: 5px 15px;
+}
+.list:hover{
+  border-bottom: 3px solid white;
+}
+.red-logos ul{
+  display: flex;
+  margin: 20px 0;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.red-logos ul li a img{
+  width: 24px;
+  height: 24px;
+}
+.header-contact{
+  position: fixed;
+  bottom: 40px;
+}
+.header-contact p{
+  text-align: center;
+  line-height: 1.7rem;
+  font-size: 1.4rem;
+}

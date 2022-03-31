@@ -5,7 +5,6 @@ import { About } from "../containers/About"
 import { Skills } from "../containers/Skills"
 import { Work } from "../containers/Work"
 import { Contact } from "../containers/Contact"
-import { Footer } from "../components/Footer"
 import "../style/Layout.css"
 
 function App () {
@@ -20,7 +19,6 @@ function App () {
         <Skills />
         <Work />
         <Contact />
-        <Footer />
       </section>
     </div>
   )

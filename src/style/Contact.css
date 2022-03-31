@@ -1,0 +1,35 @@
+.contact{
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact .form{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.contact label{
+  margin: 10px 0;
+  font-size: 1.8rem;
+}
+.contact input{
+  height: 25px;
+  font-size: 1.6rem;
+}
+.contact textarea{
+  padding: 5px;
+  font-size: 1.6rem;
+}
+.contact button{
+  width: 150px;
+  height: 30px;
+  margin-top: 20px;
+  align-self: center;
+  font-size: 1.6rem;
+  border-radius: 5px;
+}
+.contact button:hover{
+  cursor: pointer;
+}

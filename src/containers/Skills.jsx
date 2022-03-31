@@ -1,9 +1,10 @@
 import React from "react";
+import "../style/Skills.css"
 
 function Skills () {
   return(
-    <div>
-      <div className="skills">
+    <section className="skills">
+      <div className="skills-container">
         <p>HTML</p>
         <div className="container-flip">
           <div className="flip">
@@ -34,7 +35,7 @@ function Skills () {
         <h2>Skills</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ducimus aut eaque fugiat laboriosam, quibusdam tenetur deserunt unde quaerat perferendis tempora aliquid illo laborum labore voluptatum, nostrum cum nobis. Nesciunt.</p>
       </div>
-    </div>
+    </section>
   )
 }
 
