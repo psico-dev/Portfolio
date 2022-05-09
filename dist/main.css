@@ -1,0 +1,317 @@
+/*!************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/style/Header.css ***!
+  \************************************************************************/
+header{
+  width: initial;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  position: fixed;
+  lefT: 0;
+  top: 0;
+  right: auto;
+  bottom: 0;
+  background-color: #181818;
+}
+.box-logo{
+  min-height: 150px;
+  font-size: 1.6rem;
+  background-color: black;
+}
+.logo{
+  width: 100%;
+  height: 70%;
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  background-image: url("https://cdn.dribbble.com/users/1844366/screenshots/10795421/media/5b84d407b187a38ab84ae0f1e0491433.png");
+}
+.title-logo{
+  text-align: center;
+  font-size: 1.4rem;
+}
+.header-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-contact{
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+}
+ul{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.container-list{
+  width: 100%;
+  padding: 20px 10px;
+  text-align: center;
+  border-bottom: 1px solid #6b7c76;
+}
+.list{
+  padding: 5px 15px;
+  color: #6b7c76;
+}
+.list:hover{
+  color: #08fdd8;
+}
+.red-logos ul{
+  display: flex;
+  margin: 20px 0;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.red-logos ul li a img{
+  width: 24px;
+  height: 24px;
+}
+.red-logos ul li a img:hover{
+  opacity: 0.5;
+}
+.header-contact p{
+  text-align: center;
+  line-height: 1.7rem;
+  font-size: 1rem;
+}
+.header-contact p a{
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+/*!**********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/style/Home.css ***!
+  \**********************************************************************/
+.Home{
+  width: 100%;
+  height: 100vh;
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h1{
+  margin: 20px 0;
+  font-weight: 600;
+  font-size: 13.3rem;
+  line-height: 6.7rem;
+  letter-spacing: 4px;
+}
+Canvas{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.subtitle{
+  margin: 20px 0 60px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+.button-contact{
+  padding: 10px 10px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  border: 1px solid aqua;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  color: aqua;
+  transition: background-color 0.5s ease-in;
+}
+.button-contact:hover{
+  background-color: aqua;
+  color: black;
+}
+
+.letter-home{
+  display: inline-block;
+}
+.letter-home:hover{
+  color: aqua;
+}
+.letter-hover:hover{
+  color: aqua;
+}
+.letter-hover{
+  display: inline-block;
+  will-change: animation;
+  animation: letter 1s ease-in 1;
+  animation-fill-mode: both;
+}
+
+@keyframes letter {
+  0%{
+    transform: scale(1);
+  }
+  20%{
+    transform: scale(1.5, 0.5);
+  }
+  40%{
+    transform: scale(1);
+  }
+  60%{
+    transform: scale(0.8, 1.2);  
+  }
+  80%{
+    transform: scale(1.5, 0.5);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+/*!***********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/style/About.css ***!
+  \***********************************************************************/
+.about{
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 1.6rem;
+}
+.about div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container-img-about{
+  justify-self: center;
+}
+h2{
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+}
+p{
+  font-size: 1.8rem;
+  line-height: 3.5rem;
+}
+
+/*!************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/style/Skills.css ***!
+  \************************************************************************/
+.skills{
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.skills div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/*!**********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/style/Work.css ***!
+  \**********************************************************************/
+.work{
+  width: 100%;
+  height: 100vh;
+  margin-top: 20px;
+}
+.work h2{
+  font-size: 3rem;
+  text-align: center;
+}
+.carts{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*!*************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/style/Contact.css ***!
+  \*************************************************************************/
+.contact{
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact .form{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.contact label{
+  margin: 10px 0;
+  font-size: 1.8rem;
+}
+.contact input{
+  height: 25px;
+  font-size: 1.6rem;
+  border: none;
+  padding-left: 10px;
+  background-color: #f2f2f2;
+}
+.contact input:focus-visible,
+.contact textarea{
+  padding-left: 10px;
+  outline: none;
+}
+.contact textarea{
+  padding: 10px;
+  font-size: 1.6rem;
+}
+.contact button{
+  width: 150px;
+  margin-top: 20px;
+  padding: 10px 10px;
+  align-self: center;
+  font-size: 1.6rem;
+  font-weight: 800;
+  border: aqua solid 1px;
+  color: aqua;
+  background-color: #1d1d1d;
+  border-radius: 5px;
+  transition: background-color 1s ease-in;
+}
+.contact button:hover{
+  background-color: aqua;
+  color: black;
+  cursor: pointer;
+}
+/*!************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/style/Layout.css ***!
+  \************************************************************************/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-size: 62.5%;
+}
+body{
+  font-family: 'Oswald', sans-serif;
+  color: aliceblue;
+  background-color: #1d1d1d;
+}
+.container{
+  display: grid;
+  grid-template-columns: 130px auto;
+}
+.header-container{
+  width: 100%;
+  height: 100vh;
+}
+.landing-container{
+  padding: 0px 40px;
+}
+a{
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: aliceblue;
+}
+li{
+  font-size: 1.8rem;
+}

@@ -14,7 +14,7 @@ function App () {
         <Header />
       </section>
       <section className="landing-container">
-        <Home />
+        <Home  />
         <About />
         <Skills />
         <Work />

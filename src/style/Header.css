@@ -1,6 +1,6 @@
 header{
   width: initial;
-  height: 70vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   font-size: 16px;
@@ -9,6 +9,7 @@ header{
   top: 0;
   right: auto;
   bottom: 0;
+  background-color: #181818;
 }
 .box-logo{
   min-height: 150px;
@@ -33,6 +34,11 @@ header{
   align-items: center;
   justify-content: center;
 }
+.header-contact{
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+}
 ul{
   display: flex;
   width: 100%;
@@ -43,13 +49,14 @@ ul{
   width: 100%;
   padding: 20px 10px;
   text-align: center;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #6b7c76;
 }
 .list{
   padding: 5px 15px;
+  color: #6b7c76;
 }
 .list:hover{
-  border-bottom: 3px solid white;
+  color: #08fdd8;
 }
 .red-logos ul{
   display: flex;
@@ -61,12 +68,15 @@ ul{
   width: 24px;
   height: 24px;
 }
-.header-contact{
-  position: fixed;
-  bottom: 40px;
+.red-logos ul li a img:hover{
+  opacity: 0.5;
 }
 .header-contact p{
   text-align: center;
   line-height: 1.7rem;
-  font-size: 1.4rem;
+  font-size: 1rem;
+}
+.header-contact p a{
+  cursor: pointer;
+  font-size: 1.1rem;
 }
