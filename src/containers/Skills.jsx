@@ -7,26 +7,26 @@ function Skills () {
       <div className="skills-container">
         <p>HTML</p>
         <div className="container-flip">
-          <div className="flip">
-            hola
+          <div className="flip1">
+            <div className="flip"></div>
           </div>
         </div>
         <p>CSS</p>
         <div className="container-flip">
-          <div className="flip">
-            hola
+          <div className="flip2">
+            <div className="flip"></div>
           </div>
         </div>
         <p>JavaScript</p>
         <div className="container-flip">
-          <div className="flip">
-            hola
+          <div className="flip3">
+            <div className="flip"></div>
           </div>
         </div>
         <p>React</p>
         <div className="container-flip">
-          <div className="flip">
-            hola
+          <div className="flip4">
+            <div className="flip"></div>
           </div>
         </div>
       </div>

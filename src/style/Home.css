@@ -13,14 +13,14 @@ h1{
   line-height: 6.7rem;
   letter-spacing: 4px;
 }
-Canvas{
+/* Canvas{
   position: absolute;
   width: 100vw;
   height: 100vh;
   top: 0;
   right: 0;
   z-index: -1;
-}
+} */
 .subtitle{
   margin: 20px 0 60px;
   font-size: 1.8rem;
