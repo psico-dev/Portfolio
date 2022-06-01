@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/Home.css"
-import { Canvas } from "../components/Canva"
+import { Canvas } from "../components/CanvaHome"
 function Home () {
   
   const ref1 = React.createRef()
@@ -42,7 +42,7 @@ function Home () {
 
   return(
     <div className="Home" id="head">
-      <h1 aria-label="Hola, Soy Andrés desarrollador web">
+      <h1 aria-label="Hola, Soy Andrés desarrollador web" className="letters">
         <span ref={ref1} className="letter-home" onMouseEnter={() => change(ref1)}>H</span>
         <span ref={ref2} className="letter-home" onMouseEnter={() => change(ref2)}>o</span>
         <span ref={ref3} className="letter-home" onMouseEnter={() => change(ref3)}>l</span>

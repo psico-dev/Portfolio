@@ -9,6 +9,7 @@ header{
   top: 0;
   right: auto;
   bottom: 0;
+  z-index: 3;
   background-color: #181818;
 }
 .box-logo{

@@ -1,7 +1,7 @@
 .Home{
   width: 100%;
   height: 100vh;
-  padding: 50px 0px;
+  padding: 50px 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,6 +12,22 @@ h1{
   font-size: 13.3rem;
   line-height: 6.7rem;
   letter-spacing: 4px;
+}
+.letters{
+  z-index: 1;
+  animation: fix 2s ease normal forwards;
+}
+@keyframes fix {
+  from{
+    position: relative;
+    color: aqua;
+    left: -100%;
+  }
+  to{
+    position: relative;
+    color: #f2f2f2;
+    left: 0;
+  }
 }
 /* Canvas{
   position: absolute;
@@ -26,6 +42,7 @@ h1{
   font-size: 1.8rem;
   font-weight: 600;
   letter-spacing: 4px;
+  animation: subSplit 3.5s cubic-bezier(.76,1.58,.37,1) normal forwards;
 }
 .button-contact{
   padding: 10px 10px;
@@ -39,10 +56,21 @@ h1{
   letter-spacing: 2px;
   color: aqua;
   transition: background-color 0.5s ease-in;
+  animation: subSplit 2s ease normal forwards;
 }
 .button-contact:hover{
   background-color: aqua;
   color: black;
+}
+@keyframes subSplit {
+  from{
+    position: relative;
+    left: -100%;
+  }
+  to{
+    position: relative;
+    left: 0;
+  }
 }
 
 .letter-home{
