@@ -15,6 +15,7 @@ header{
 .box-logo{
   min-height: 150px;
   font-size: 1.6rem;
+  text-align: center;
   background-color: black;
 }
 .logo{
@@ -27,6 +28,7 @@ header{
   background-image: url("https://cdn.dribbble.com/users/1844366/screenshots/10795421/media/5b84d407b187a38ab84ae0f1e0491433.png");
 }
 .title-logo{
+  display: inline-block;
   text-align: center;
   font-size: 1.4rem;
 }

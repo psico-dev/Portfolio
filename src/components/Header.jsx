@@ -8,7 +8,7 @@ function Header () {
     <header>
       <div className="box-logo">
         <a href="#head" className="logo"></a>
-        <p className="title-logo">Web Developer</p>
+        <a href="#head" className="title-logo">Web Developer</a>
       </div>
 
       <div className="header-list">
