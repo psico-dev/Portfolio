@@ -11,37 +11,36 @@ function Canvas () {
     let h = "630"
     let ctx = c.getContext( '2d' ),
       
-      opts = {
-        
-        len: 20,
-        count: 50,
-        baseTime: 10,
-        addedTime: 10,
-        dieChance: .05,
-        spawnChance: 1,
-        sparkChance: .1,
-        sparkDist: 10,
-        sparkSize: 2,
-        // color: 'hsl(hue,100%,light%)',
-        color: "aqua",
-        baseLight: 30,
-        addedLight: 10, // [50-10,50+10]
-        shadowToTimePropMult: 10,
-        baseLightInputMultiplier: .01,
-        addedLightInputMultiplier: .02,
-        
-        cx: w / 2,
-        cy: h / 2,
-        repaintAlpha: 0.05,
-        hueChange: 1
-      },
+    opts = {
+      len: 20,
+      count: 50,
+      baseTime: 10,
+      addedTime: 10,
+      dieChance: .05,
+      spawnChance: 1,
+      sparkChance: .1,
+      sparkDist: 10,
+      sparkSize: 2,
+      // color: 'hsl(hue,100%,light%)',
+      color: "aqua",
+      baseLight: 30,
+      addedLight: 10, // [50-10,50+10]
+      shadowToTimePropMult: 10,
+      baseLightInputMultiplier: .01,
+      addedLightInputMultiplier: .02,
       
-      tick = 0,
-      lines = [],
-      dieX = w / 2 / opts.len,
-      dieY = h / 2 / opts.len,
-      
-      baseRad = Math.PI * 2 / 6;
+      cx: w / 2,
+      cy: h / 2,
+      repaintAlpha: 0.05,
+      hueChange: 1
+    },
+    
+    tick = 0,
+    lines = [],
+    dieX = w / 2 / opts.len,
+    dieY = h / 2 / opts.len,
+    
+    baseRad = Math.PI * 2 / 6;
       
     ctx.fillStyle = 'black';
     ctx.fillRect( 0, 0, w, h );

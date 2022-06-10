@@ -41,7 +41,7 @@ function Home () {
   }
 
   return(
-    <div className="Home" id="head">
+    <div className="Home">
       <h1 aria-label="Hola, Soy Andrés desarrollador web" className="letters">
         <span ref={ref1} className="letter-home" onMouseEnter={() => change(ref1)}>H</span>
         <span ref={ref2} className="letter-home" onMouseEnter={() => change(ref2)}>o</span>

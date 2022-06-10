@@ -6,21 +6,24 @@ import { Skills } from "../containers/Skills"
 import { Work } from "../containers/Work"
 import { Contact } from "../containers/Contact"
 import { useLazyLoad } from "../hooks/lazyLoad"
-// import Loading from "../components/Loading"
+import Loading from "../components/Loading"
 import "../style/Layout.css"
 
 function App () {
   
+  const [showHome, setShowHome] = React.useState(false)
   const [show, setShow] = React.useState(false)
   const [showAbout, setShowAbout] = React.useState(false)
   const [showWork, setShowWork] = React.useState(false)
   const [showContact, setShowContact] = React.useState(false)
 
+  const home = React.createRef()
   const about = React.createRef()
   const skills = React.createRef()
   const work = React.createRef()
   const contact = React.createRef()
 
+  useLazyLoad(home, setShowHome)
   useLazyLoad(about, setShowAbout)
   useLazyLoad(skills, setShow)
   useLazyLoad(work, setShowWork)
@@ -32,7 +35,9 @@ function App () {
           <Header />
       </section>
       <section className="landing-container">
-        <Home />
+        <div ref={home} className="contentLazy" id="head">
+          {showHome ? <Home /> : null}
+        </div>
         <div ref={about} className="contentLazy" id="about">
           {showAbout ? <About /> : null}
         </div>
