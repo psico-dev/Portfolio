@@ -3,7 +3,7 @@ import "../style/Work.css"
 
 function Work () {
   return(
-    <section className="work" id="proyects">
+    <section className="work">
       <h2>Proyectos</h2>
       <div className="carts">
         <div>hola</div>

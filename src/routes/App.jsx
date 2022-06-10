@@ -5,20 +5,46 @@ import { About } from "../containers/About"
 import { Skills } from "../containers/Skills"
 import { Work } from "../containers/Work"
 import { Contact } from "../containers/Contact"
+import { useLazyLoad } from "../hooks/lazyLoad"
+// import Loading from "../components/Loading"
 import "../style/Layout.css"
 
 function App () {
+  
+  const [show, setShow] = React.useState(false)
+  const [showAbout, setShowAbout] = React.useState(false)
+  const [showWork, setShowWork] = React.useState(false)
+  const [showContact, setShowContact] = React.useState(false)
+
+  const about = React.createRef()
+  const skills = React.createRef()
+  const work = React.createRef()
+  const contact = React.createRef()
+
+  useLazyLoad(about, setShowAbout)
+  useLazyLoad(skills, setShow)
+  useLazyLoad(work, setShowWork)
+  useLazyLoad(contact, setShowContact)
+
   return(
     <div className="container">
       <section className="header-container">
-        <Header />
+          <Header />
       </section>
       <section className="landing-container">
-        <Home  />
-        <About />
-        <Skills />
-        <Work />
-        <Contact />
+        <Home />
+        <div ref={about} className="contentLazy" id="about">
+          {showAbout ? <About /> : null}
+        </div>
+        <div ref={skills} className="contentLazy" id="skills">
+          {show ?  <Skills /> : null}
+        </div>
+        <div ref={work} className="contentLazy" id="proyects">
+          {showWork ? <Work /> : null}
+        </div>
+        <div ref={contact} className="contentLazy" id="contact">
+          {showContact ? <Contact /> : null}
+        </div>
       </section>
     </div>
   )

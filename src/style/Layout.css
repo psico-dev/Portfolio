@@ -21,6 +21,9 @@ body{
 /* .landing-container{
   padding: 0px 40px;
 } */
+.contentLazy{
+  height: 100vh;
+}
 a{
   font-size: 1.6rem;
   text-decoration: none;

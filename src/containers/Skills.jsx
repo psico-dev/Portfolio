@@ -3,7 +3,7 @@ import "../style/Skills.css"
 
 function Skills () {
   return(
-    <section className="skills" id="skills">
+    <section className="skills">
       <div className="skills-container">
         <p>HTML</p>
         <div className="container-flip">
