@@ -11,7 +11,7 @@ function Contact () {
         <label htmlFor="email">Correo: </label>
         <input id="email" type="email" placeholder="Correo" />
         <label htmlFor="message">Mensaje: </label>
-        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <textarea name="message" id="message" cols="20" rows="10" placeholder="Deja tu mensaje"></textarea>
         {/* <input id="message" type="text" placeholder="Deja tu mensaje"/> */}
         {/* <input type="button" value={Enviar}/> */}
         <button>Enviar</button>

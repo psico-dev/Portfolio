@@ -34,7 +34,7 @@ function Skills () {
       <div className="container-skills-description">
         <div className="skills-description">
           <h2>Skills</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ducimus aut eaque fugiat laboriosam, quibusdam tenetur deserunt unde quaerat perferendis tempora aliquid illo laborum labore voluptatum, nostrum cum nobis. Nesciunt.</p>
+          <p>Como buen desarrollador frontend, me he concentrado en entender las tecnologías estándar que componen el core de la web, como lo es HTML, CSS y JavaScript dándole especial atención a la maquetación y reutilización de elementos, haciendo aplicaciones como piezas de lego, dejando que cada parte pueda vivir en su contexto y sea reutilizable. Teniendo en mente esta funcionalidad me especialicé en el framework por excelencia para el diseño modular sin dejar de lado el SEO de las páginas como es React.</p>
         </div>
       </div>
     </section>

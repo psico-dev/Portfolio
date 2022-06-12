@@ -28,9 +28,7 @@ function Header () {
       <div className="header-contact">
         <p>
           Andrés Alejandro Pérez García<br />
-          <a href="/">
-            alejoandi@hotmail.com
-          </a>
+          alejoandi@hotmail.com
         </p>
       </div>
     </header>

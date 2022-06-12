@@ -13,21 +13,22 @@ function App () {
   const [showHome, setShowHome] = React.useState(false)
   const [show, setShow] = React.useState(false)
   const [showAbout, setShowAbout] = React.useState(false)
-  const [showWork, setShowWork] = React.useState(false)
   const [showContact, setShowContact] = React.useState(false)
-
+  
   const home = React.createRef()
   const about = React.createRef()
   const skills = React.createRef()
-  const work = React.createRef()
   const contact = React.createRef()
-
+  
   useLazyLoad(home, setShowHome)
   useLazyLoad(about, setShowAbout)
   useLazyLoad(skills, setShow)
-  useLazyLoad(work, setShowWork)
   useLazyLoad(contact, setShowContact)
-
+  
+  // const [showWork, setShowWork] = React.useState(false)
+  // const work = React.createRef()
+  // useLazyLoad(work, setShowWork)
+  
   return(
     <div className="container">
       <section className="header-container">
@@ -43,9 +44,9 @@ function App () {
         <div ref={skills} className="contentLazy" id="skills">
           {show ?  <Skills /> : null}
         </div>
-        <div ref={work} className="contentLazy" id="proyects">
+        {/* <div ref={work} className="contentLazy" id="proyects">
           {showWork ? <Work /> : null}
-        </div>
+        </div> */}
         <div ref={contact} className="contentLazy" id="contact">
           {showContact ? <Contact /> : null}
         </div>
