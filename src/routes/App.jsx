@@ -6,7 +6,6 @@ import { Skills } from "../containers/Skills"
 import { Work } from "../containers/Work"
 import { Contact } from "../containers/Contact"
 import { useLazyLoad } from "../hooks/lazyLoad"
-import Loading from "../components/Loading"
 import "../style/Layout.css"
 
 function App () {

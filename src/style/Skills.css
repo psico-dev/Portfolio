@@ -44,3 +44,22 @@
     width: 100%;
   }
 }
+
+.container-skills-description{
+  position: relative;
+  width: 100%;
+}
+.skills-description{
+  position: absolute;
+  width: 100%;
+  animation: entry 4s ease forwards;
+}
+
+@keyframes entry {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
