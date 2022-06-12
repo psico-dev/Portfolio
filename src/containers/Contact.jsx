@@ -5,7 +5,7 @@ function Contact () {
   return(
     <section className="contact">
       <h2>Contáctame</h2>
-      <form action="submit" className="form">
+      <form action="submit" name="contact" className="form" method="POST" data-netlify="true">
         <label htmlFor="name">Nombre: </label>
         <input type="text" id="name" placeholder="Nombre" />
         <label htmlFor="email">Correo: </label>
