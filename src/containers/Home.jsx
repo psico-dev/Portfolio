@@ -30,6 +30,11 @@ function Home () {
   const ref25 = React.createRef()
   const ref26 = React.createRef()
   const ref27 = React.createRef()
+  const ref28 = React.createRef()
+  const ref29 = React.createRef()
+  const ref30 = React.createRef()
+  const ref31 = React.createRef()
+
 
   const change = (ref) => {
     ref.current.className = "letter-home, letter-hover"
@@ -52,7 +57,7 @@ function Home () {
         <span ref={ref6} className="letter-home" onMouseEnter={() => change(ref6)}>S</span>
         <span ref={ref7} className="letter-home" onMouseEnter={() => change(ref7)}>o</span>
         <span ref={ref8} className="letter-home" onMouseEnter={() => change(ref8)}>y </span>
-        <span ref={ref9} className="letter-home" onMouseEnter={() => change(ref9)} style={{padding: "0 0 0 20px"}}>
+        <span ref={ref9} className="letter-home" onMouseEnter={() => change(ref9)} style={{padding: "0 0 0 10px"}}>
           A
         </span>
         <span ref={ref10} className="letter-home" onMouseEnter={() => change(ref10)}>n</span>
@@ -62,23 +67,26 @@ function Home () {
         <span ref={ref14} className="letter-home" onMouseEnter={() => change(ref14)}>s</span>
         <span ref={ref15} className="letter-home" onMouseEnter={() => change(ref15)}>, </span>
         <br />
-        <span ref={ref16} className="letter-home" onMouseEnter={() => change(ref16)}>W</span>
+        <span ref={ref16} className="letter-home" onMouseEnter={() => change(ref16)}>D</span>
         <span ref={ref17} className="letter-home" onMouseEnter={() => change(ref17)}>e</span>
-        <span ref={ref18} className="letter-home" onMouseEnter={() => change(ref18)}>b </span>
-        <span ref={ref19} className="letter-home" onMouseEnter={() => change(ref19)} style={{padding: "0 0 0 20px"}}>
-          d
-        </span>
-        <span ref={ref20} className="letter-home" onMouseEnter={() => change(ref20)}>e</span>
-        <span ref={ref21} className="letter-home" onMouseEnter={() => change(ref21)}>v</span>
-        <span ref={ref22} className="letter-home" onMouseEnter={() => change(ref22)}>e</span>
+        <span ref={ref18} className="letter-home" onMouseEnter={() => change(ref18)}>s </span>
+        <span ref={ref19} className="letter-home" onMouseEnter={() => change(ref19)}>a</span>
+        <span ref={ref20} className="letter-home" onMouseEnter={() => change(ref20)}>r</span>
+        <span ref={ref21} className="letter-home" onMouseEnter={() => change(ref21)}>r</span>
+        <span ref={ref22} className="letter-home" onMouseEnter={() => change(ref22)}>o</span>
         <span ref={ref23} className="letter-home" onMouseEnter={() => change(ref23)}>l</span>
-        <span ref={ref24} className="letter-home" onMouseEnter={() => change(ref24)}>o</span>
-        <span ref={ref25} className="letter-home" onMouseEnter={() => change(ref25)}>p</span>
-        <span ref={ref26} className="letter-home" onMouseEnter={() => change(ref26)}>e</span>
-        <span ref={ref27} className="letter-home" onMouseEnter={() => change(ref27)}>r</span>
+        <span ref={ref24} className="letter-home" onMouseEnter={() => change(ref24)}>l</span>
+        <span ref={ref25} className="letter-home" onMouseEnter={() => change(ref25)}>a</span>
+        <span ref={ref26} className="letter-home" onMouseEnter={() => change(ref26)}>d</span>
+        <span ref={ref27} className="letter-home" onMouseEnter={() => change(ref27)}>o</span>
+        <span ref={ref27} className="letter-home" onMouseEnter={() => change(ref28)}>r</span>
+        <span ref={ref27} className="letter-home" onMouseEnter={() => change(ref29)} style={{padding: "0 0 0 10px"}}>W</span>
+        <span ref={ref27} className="letter-home" onMouseEnter={() => change(ref30)}>e</span>
+        <span ref={ref27} className="letter-home" onMouseEnter={() => change(ref31)}>b</span>
+
       </h1>
       <Canvas />
-      <p className="subtitle">Front End Developer</p>
+      <p className="subtitle">Front-End Developer</p>
       <a className="button-contact" href="#contact">Contáctame!</a>
     </div>
   )

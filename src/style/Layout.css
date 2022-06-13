@@ -32,3 +32,73 @@ a{
 li{
   font-size: 1.8rem;
 }
+@media screen and (max-width: 800px) {
+  .container{
+    grid: none;
+    max-width: 100vw;
+  }
+  .header-container{
+    display: none;
+  }
+  .Home{
+    height: auto;
+    padding: 10px 0 0 10px;
+  }
+  .letters{
+    margin: 0;
+    max-width: 100vw;
+    font-size: 8rem;
+    letter-spacing: -1px;
+  }
+  .subtitle{
+    margin: 0;
+    padding: 20px 0;
+  }
+  .button-contact{
+    font-size: 1.6rem;
+    padding: 5px;
+  }
+  .about{
+    margin: 50px 0;
+    height: 100%;
+  }
+  #about{
+    margin-bottom: 50px;
+  }
+  .landing-container section{
+    grid: none;
+    height: auto;
+    padding: 10px;
+  }
+  .landing-container section p{
+    width: 90%;
+    font-size: 1.4rem;
+  }
+  .landing-container div{
+    display: block;
+  }
+  .contentLazy{
+    height: 380px;
+  }
+  canvas{
+    display: none;
+  }
+  .skills-description{
+    position: static;
+  }
+  #skills{
+    height: auto;
+  }
+  .skills-description h2{
+    margin: 20px 0;
+  }
+  .contact .form{
+    width: 90%;
+  }
+  .contact label{
+    margin: 5px 0;
+  }
+  .contact .form textarea{
+    height: 150px;
+  }
+}

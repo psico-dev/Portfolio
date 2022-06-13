@@ -109,26 +109,26 @@ function Canva (){
     }
 
 
-    // Function called after the user resized its screen
-    function afterResize () {
-      width = canvas.offsetWidth;
-      height = canvas.offsetHeight;
-      if (window.devicePixelRatio > 1) {
-        canvas.width = canvas.clientWidth * 2;
-        canvas.height = canvas.clientHeight * 2;
-        ctx.scale(2, 2);
-      } else {
-        canvas.width = width;
-        canvas.height = height;
-      }
-      GLOBE_RADIUS = width * 0.7;
-      GLOBE_CENTER_Z = -GLOBE_RADIUS;
-      PROJECTION_CENTER_X = width / 2;
-      PROJECTION_CENTER_Y = height / 2;
-      FIELD_OF_VIEW = width * 0.8;
+    // // Function called after the user resized its screen
+    // function afterResize () {
+    //   width = canvas.offsetWidth;
+    //   height = canvas.offsetHeight;
+    //   if (window.devicePixelRatio > 1) {
+    //     canvas.width = canvas.clientWidth * 2;
+    //     canvas.height = canvas.clientHeight * 2;
+    //     ctx.scale(2, 2);
+    //   } else {
+    //     canvas.width = width;
+    //     canvas.height = height;
+    //   }
+    //   GLOBE_RADIUS = width * 0.7;
+    //   GLOBE_CENTER_Z = -GLOBE_RADIUS;
+    //   PROJECTION_CENTER_X = width / 2;
+    //   PROJECTION_CENTER_Y = height / 2;
+    //   FIELD_OF_VIEW = width * 0.8;
       
-      createDots(); // Reset all dots
-     }
+    //   createDots(); // Reset all dots
+    //  }
 
     // Variable used to store a timeout when user resized its screen
     let resizeTimeout;
