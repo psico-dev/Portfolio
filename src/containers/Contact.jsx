@@ -12,7 +12,7 @@ function Contact () {
         <input id="email" type="email" placeholder="Correo" />
         <label htmlFor="message">Mensaje: </label>
         <textarea name="message" id="message" cols="20" rows="10" placeholder="Deja tu mensaje"></textarea>
-        <button>Enviar</button>
+        <button type="submit">Enviar</button>
       </form>
     </section>
   )
