@@ -5,7 +5,18 @@ function Contact () {
   return(
     <section className="contact">
       <h2>Contáctame</h2>
-      <form name="contact" className="form" netlify>
+      <form name="contact" netlify>
+        <p>
+          <label>Name <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Email <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+      {/* <form name="contact" className="form" netlify>
         <label htmlFor="name">Nombre: </label>
         <input type="text" id="name" placeholder="Nombre" />
         <label htmlFor="email">Correo: </label>
@@ -13,7 +24,7 @@ function Contact () {
         <label htmlFor="message">Mensaje:</label>
         <textarea name="message" id="message" cols="20" rows="10" placeholder="Deja tu mensaje"></textarea>
         <button type="submit">Enviar</button>
-      </form>
+      </form> */}
     </section>
   )
 }
