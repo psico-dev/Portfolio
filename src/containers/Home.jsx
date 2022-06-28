@@ -79,10 +79,10 @@ function Home () {
         <span ref={ref25} className="letter-home" onMouseEnter={() => change(ref25)}>a</span>
         <span ref={ref26} className="letter-home" onMouseEnter={() => change(ref26)}>d</span>
         <span ref={ref27} className="letter-home" onMouseEnter={() => change(ref27)}>o</span>
-        <span ref={ref27} className="letter-home" onMouseEnter={() => change(ref28)}>r</span>
-        <span ref={ref27} className="letter-home" onMouseEnter={() => change(ref29)} style={{padding: "0 0 0 10px"}}>W</span>
-        <span ref={ref27} className="letter-home" onMouseEnter={() => change(ref30)}>e</span>
-        <span ref={ref27} className="letter-home" onMouseEnter={() => change(ref31)}>b</span>
+        <span ref={ref28} className="letter-home" onMouseEnter={() => change(ref28)}>r</span>
+        <span ref={ref29} className="letter-home" onMouseEnter={() => change(ref29)} style={{padding: "0 0 0 10px"}}>W</span>
+        <span ref={ref30} className="letter-home" onMouseEnter={() => change(ref30)}>e</span>
+        <span ref={ref31} className="letter-home" onMouseEnter={() => change(ref31)}>b</span>
 
       </h1>
       <Canvas />
